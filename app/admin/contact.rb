@@ -1,4 +1,5 @@
 ActiveAdmin.register Contact do
+  permit_params :name, :phone
 
 
   # See permitted parameters documentation:
