@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :log_entries
+
   resources :tracks
 
   resources :events
