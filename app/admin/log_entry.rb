@@ -1,4 +1,5 @@
 ActiveAdmin.register LogEntry do
+  permit_params :log
 
 
   # See permitted parameters documentation:
