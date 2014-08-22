@@ -1,4 +1,5 @@
 ActiveAdmin.register Vehicle do
+  permit_params :make, :model, :year
 
 
   # See permitted parameters documentation:
