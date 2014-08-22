@@ -1,4 +1,5 @@
 ActiveAdmin.register Track do
+  permit_params :name, :directions
 
 
   # See permitted parameters documentation:
