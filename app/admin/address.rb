@@ -1,4 +1,5 @@
 ActiveAdmin.register Address do
+  permit_params :street_address, :unit, :state_province, :postal_code, :city, :description
 
 
   # See permitted parameters documentation:
